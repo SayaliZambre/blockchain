@@ -5,14 +5,7 @@ import HomeScreen from "./src/screens/HomeScreen";
 import LoginScreen from "./src/screens/LoginScreen";
 import StakingScreen from "./src/screens/StakingScreen";
 
-// Define the types for the stack navigator
-export type RootStackParamList = {
-  Login: undefined;
-  Home: undefined;
-  Staking: undefined;
-};
-
-const Stack = createStackNavigator<RootStackParamList>();
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
